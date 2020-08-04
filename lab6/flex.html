@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript">
+		function view(id)
+		{
+			var a= document.getElementById(id).style.display ;
+			if(a=="block")
+			{
+				document.getElementById(id).style.display = "none";
+			}
+			else
+			{
+				document.getElementById(id).style.display ="block";
+			}
+		}
+	</script>
+</head>
+<body>
+<div class="div1">
+	<div class="nav">
+		<h4>FlexBox</h4>
+		<a style="margin-left: 60%;">Home</a>
+		<a>Services</a>
+		<a>Gallery</a>
+		<a>About Us</a>
+		<a>Contact Us</a>
+	</div>
+	<div class="nav1">
+		<h2>Designed with Flex Box</h2>
+	</div>	
+</div>
+<div class="div2">.
+	<h4 class="div21">Designed with FlexBox Layout</h4>
+	<h6 style="" class="div22">DescriptionCSS Flexible Box Layout, commonly known as Flexbox, is a CSS 3 web layout model. It is in the W3C's candidate recommendation stage. The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.</h6>
+</div>
+<div class="div3">
+	<div class="div31">
+		<h5 style="margin-top: 50PX;text-align: center;">Details of all labs </h5>
+		<div class="div311" onclick="view('det')">LAB 1</div>
+		<div class="div311" onclick="view('det2')">LAB 2</div>
+		<div class="div311" onclick="view('det3')">LAB 3</div>
+		<div class="div311" onclick="view('det4')">LAB 4</div>
+		<div class="div311" onclick="view('det5')">LAB 5</div>
+		<div class="div311" onclick="view('det6')">LAB 6</div>
+		<div class="div311"onclick="view('det7')">LAB 7</div>
+	</div>
+	<div style="width: 100%">
+		<h4 id="head">Labs</h4>
+		<div class="div32">
+			<div class="div321">
+				<div class="div3211">
+					<p>L</p>
+					<p>A</p>
+					<p>B</p>
+					<p>1</p>
+				</div>
+				<div class="div3212">
+					<div class="div32121">In this lab we performed the basic things like creating an account on github, adding collaborations. ...
+						<br><br><div onclick="view('det')">View Details</div></div>
+					<div class="div32122" id="det">we have cresated branches in our repository, added files to it and remove dsome files and merged some files and finally solved commit confllilctls.</div>
+				</div>
+			</div>
+
+			<div class="div321">
+				<div class="div3211">
+					<p>L</p>
+					<p>A</p>
+					<p>B</p>
+					<p>2</p>
+				</div>
+				<div class="div3212">
+					<div class="div32121">In this lab we have created webpages using HTML language.
+						<br><br><div onclick="view('det2')">View Details</div></div>
+					<div class="div32122" id="det2">we have created a paragragh on selected topic given heading for it, added images, and added colors to it ensured text formatting and added anchors of the selected images</div>
+				</div>
+			</div>
+
+			<div class="div321">
+				<div class="div3211">
+					<p>L</p>
+					<p>A</p>
+					<p>B</p>
+					<p>3</p>
+				</div>
+				<div class="div3212">
+					<div class="div32121">In this lab we have solved some programming problems in codewars using javascript ...
+						<br><br><div onclick="view('det3')">View Details</div></div>
+					<div class="div32122" id="det3">Tlanguage like conditional statements, loop statements and Datatype manipulation.</div>
+				</div>
+			</div>
+			
+			</div>
+
+			<div class="div33">
+			<div class="div321">
+				<div class="div3211">
+					<p>L</p>
+					<p>A</p>
+					<p>B</p>
+					<p>4</p>
+				</div>
+				<div class="div3212">
+					<div class="div32121">In this lab we have added styles to lab 2 like adding webpage title, title, lab description, ...
+						<br><br><div onclick="view('det4')">View Details</div></div>
+					<div class="div32122" id="det4">designed a HTML table using javascript variable which allows adding new rows to it and allows user to remove the rows.</div>
+				</div>
+			</div>
+
+			<div class="div321">
+				<div class="div3211">
+					<p>L</p>
+					<p>A</p>
+					<p>B</p>
+					<p>5</p>
+				</div>
+				<div class="div3212">
+					<div class="div32121">Switch has be developed with simple, truly extensible option framework, Redux....
+						<br><br><div onclick="view('det5')">View Details</div></div>
+					<div class="div32122" id="det5">The framework build on the WordPress setting API,supports a multitude of field types as well as custom error handling, custom field & validation types, and import/export functionality.</div>
+				</div>
+			</div>
+
+			<div class="div321">
+				<div class="div3211">
+					<p>L</p>
+					<p>A</p>
+					<p>B</p>
+					<p>6</p>
+				</div>
+				<div class="div3212">
+					<div class="div32121">DescriptionCSS Flexible Box Layout, commonly known as Flexbox,
+						<br><br><div onclick="view('det6')">View Details</div></div>
+					<div class="div32122" id="det6">escriptionCSS Flexible Box Layout, commonly known as Flexbox, is a CSS 3 web layout model. It is in the W3C's candidate recommendation stage. The flex layout allows responsive elements within a container to</div>
+				</div>
+			</div>
+			
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+<div id="foot">
+	inspired by : https://webthemez.com/lookup-interior-design-bootstrap-website-template/
+</div>
+</body>
+</html>
